@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Play&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav" id="topNav">
+      <a href="#home" class="nav-link">
+        <i class="fa-brands fa-cloudversify"></i>
+      </a>
+      <a href="#home" class="nav-link"
+        ><i class="fa-solid fa-house-user"></i>&nbsp;Home</a
+      >
+      <a href="#news" class="nav-link"
+        ><i class="fa-solid fa-phone"></i>&nbsp;Support</a
+      >
+      <a href="#contact" class="nav-link"
+        ><i class="fa-regular fa-address-book"></i>&nbsp;Contact</a
+      >
+      <a href="#about" class="nav-link"
+        ><i class="fa-regular fa-address-card"></i>&nbsp;About</a
+      >
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="">
+      <div class="top">
+        <h1>Plans & Pricing For Cloud Hosting</h1>
+        <div class="toggle-btn">
+          <span style="margin: 0.8em"><b>USD(&dollar;)</b></span>
+          <label class="switch">
+            <input type="checkbox" id="checbox" onclick="check()" ; />
+            <span class="slider round"></span>
+          </label>
+          <span style="margin: 0.8em"><b>Rupee(&#8377;)</b></span>
+        </div>
+      </div>
+
+      <div class="package-container">
+        <div class="packages">
+          <h1>Starter</h1>
+          <h2 class="text1">&#8377;4076/month</h2>
+          <h2 class="text2">&dollar;49/month</h2>
+          <ul class="list">
+            <li class="first">1GB Bandwidth</li>
+            <li>25Gb Storage</li>
+            <li>1 Accounts</li>
+            <li>1 Host-Domain</li>
+            <li>24/7 Support</li>
+          </ul>
+          <a href="#" class="button button1">Buy Now</a>
+        </div>
+        <div class="packages">
+          <h1>Standard</h1>
+          <h2 class="text1">&#8377;8,234/month</h2>
+          <h2 class="text2">&dollar;99/month</h2>
+          <ul class="list">
+            <li class="first">5GB Bandwidth</li>
+            <li>50Gb Storage</li>
+            <li>4 Accounts</li>
+            <li>2 Host-Domain</li>
+            <li>24/7 Support</li>
+          </ul>
+          <a href="#" class="button button1">Buy Now</a>
+        </div>
+        <div class="packages">
+          <h1>Professional</h1>
+          <h2 class="text1">&#8377;16551/month</h2>
+          <h2 class="text2">&dollar;199/month</h2>
+          <ul class="list">
+            <li class="first">10Gb Bandwidth</li>
+            <li>100Gb Storage</li>
+            <li>10 Accounts</li>
+            <li>4 Host-Domain</li>
+            <li>24/7 Support</li>
+          </ul>
+          <a href="#" class="button button2">Buy Now</a>
+        </div>
+        <div class="packages">
+          <h1>Enterprise</h1>
+          <h2 class="text1">&#8377;24868/month</h2>
+          <h2 class="text2">&dollar;299/month</h2>
+          <ul class="list">
+            <li class="first">20Gb Bandwidth</li>
+            <li>200Gb Storage</li>
+            <li>20 Accounts</li>
+            <li>10 Host-Domain</li>
+            <li>24/7 Support</li>
+          </ul>
+          <a href="#" class="button button3">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; Made by Rishav.</p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
